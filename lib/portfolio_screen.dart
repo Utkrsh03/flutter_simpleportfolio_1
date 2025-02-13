@@ -7,10 +7,10 @@ class PortfolioScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: Colors.black,
       body: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
+        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 20),
         child: Column(
           children: [
             NavBar(),
